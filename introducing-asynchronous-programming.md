@@ -92,3 +92,6 @@ doOperation();
 ```
 
 nesting deeply into a function in the way makes the code difficult to read and debug. further, any errors will have to be handled at each level of nesting rather than only at the top level. because of this, callbacks are not as used in modern asynchronous API's, rather <u>promises</u> are used.
+
+## Credit
+These notes are a personal re-stating of [MDN's Introducing asynchronous JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing) for personal study purposes
